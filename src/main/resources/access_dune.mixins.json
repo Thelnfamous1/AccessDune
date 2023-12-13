@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "me.infamous.access_dune.mixin",
+  "plugin": "me.infamous.access_dune.mixin.AccessModMixinPlugin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "${mod_id}.refmap.json",
+  "mixins": [
+    "AbstractBlockStateMixin",
+    "DesertWellsFeatureMixin",
+    "EntityMixin",
+    "GlassBottleItemMixin",
+    "LivingEntityMixin"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}
